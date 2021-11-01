@@ -11,10 +11,10 @@ import './App.css'
 function App() {
     return (
       <>
-        <div class="container">
+        <div className="container">
             <Profile />
             <TextSection />
-            <WorkExperience />
+            <WorkExperience key={0}/>
             <Skills />
             <Education />
         </div>

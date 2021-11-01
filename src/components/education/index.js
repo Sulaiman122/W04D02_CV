@@ -13,10 +13,10 @@ function Education() {
     },
   ];
   return (
-    <div class="textContainer">
-      <div class="title">
+    <div className="textContainer">
+      <div className="title">
         <p>
-          <i class="fas fa-graduation-cap"></i>
+          <i className="fas fa-graduation-cap"></i>
           <b>Education</b>
         </p>
       </div>

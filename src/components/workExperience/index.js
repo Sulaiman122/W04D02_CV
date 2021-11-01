@@ -44,21 +44,21 @@ function WorkExperience() {
     },
   ];
   return (
-    <div class="textContainer">
-      <div class="title">
+    <div className="textContainer">
+      <div className="title">
         <p>
-          <i class="fas fa-building"></i>
+          <i className="fas fa-building"></i>
           <b>Work Experience</b>
         </p>
       </div>
       <hr />
       {workList.map((item) => {
         return (
-          <>
-            <h5 className="workTitle">{item.workTitle}</h5>
-            <p className="workDate">{item.workDate}</p>
-            <p className="WorkText">{item.workText}</p>
-          </>
+            <>
+              <h5 className="workTitle">{item.workTitle}</h5>
+              <p className="workDate">{item.workDate}</p>
+              <p className="WorkText">{item.workText}</p>
+            </>
         );
       })}
     </div>
