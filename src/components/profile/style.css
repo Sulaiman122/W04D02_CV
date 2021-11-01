@@ -1,0 +1,26 @@
+
+.left{
+    background-color: white;
+    width: 25%;
+    padding: 1rem;
+    text-align: center;
+    margin-right: 0.6rem;
+    float: left;
+}
+.left img{
+    border-radius: 10rem;
+}
+.left i{
+    font-size: 2.3vw;
+    margin: 0 1rem;
+}
+.left h4,p{
+    margin: 1rem 0;
+}
+.left .co{
+    font-size: 1.3vw;
+    color: gray;
+}
+.left a{
+    color: black;
+}

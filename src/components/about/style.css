@@ -1,0 +1,18 @@
+.textContainer{
+    background-color: white;
+    padding: 1.5rem;
+    width: 73%;
+    float: right;
+}
+
+.title p{
+    font-size: 2vw;
+    color: gray;
+}
+.title i{
+    margin-right: 1rem;
+}
+.text{
+    font-size: 1.3vw;
+    line-height: 2rem;
+}
